@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+body {
+    margin: 0 auto;
+    width:1190px;
+    height:150px;
+    margin-top:1px;
+    background-image: url(../_images/background.jpg);
+    background-size: 50%;
+    color: white;
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+ul {
+    text-align:center;
+    margin: 5px 10px;
+    background-color: rgba(0,0,0,.5);
+    list-style: none;
+
+}
+
+li {
+    display: inline;
+}
+
+a {
+    padding: 8px 80px;
+    display: inline-block;
+
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
